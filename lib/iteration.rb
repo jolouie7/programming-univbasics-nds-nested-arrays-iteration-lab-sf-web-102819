@@ -60,9 +60,8 @@ def total_even_pairs(src)
     if ele[0] % 2 == 0 && ele[1] % 2 == 0
       total = ele[0] + ele[1] + total
       row += 1
-    else 
-      row += 1
     end 
+    row += 1
   end
   total
 end
