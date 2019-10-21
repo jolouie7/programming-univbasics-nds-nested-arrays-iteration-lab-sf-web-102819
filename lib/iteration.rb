@@ -25,6 +25,17 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
+  #loop through Array
+  #find max number in sub_arr
+  #<< to result Array
+  #return result
+  result = []
+  row = 0
+  while row < src.length do
+    ele = src[row]
+    result << ele.max
+  end
+  result
 end
 
 def total_even_pairs(src)
