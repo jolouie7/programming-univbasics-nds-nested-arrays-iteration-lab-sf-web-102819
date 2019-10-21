@@ -9,9 +9,12 @@ def join_ingredients(src)
   
   #loop through the array
   #have 2 counters. one for row and one for col
+  #<< created string into result array
+  result = []
   row = 0
   while row < src.length do
-    
+    ele = src[row]
+    result << ""
   end
 end
 
