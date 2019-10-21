@@ -14,8 +14,10 @@ def join_ingredients(src)
   row = 0
   while row < src.length do
     ele = src[row]
-    result << ""
+    result << "I love #{ele[0]} and #{ele[1]} on my pizza"
+    row += 1
   end
+  result
 end
 
 def find_greater_pair(src)
