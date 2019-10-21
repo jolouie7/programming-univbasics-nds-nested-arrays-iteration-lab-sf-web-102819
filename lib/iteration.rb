@@ -34,6 +34,7 @@ def find_greater_pair(src)
   while row < src.length do
     ele = src[row]
     result << ele.max
+    row += 1
   end
   result
 end
